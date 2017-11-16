@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>TRACKING-ITSU-Debug@TestOpenCl</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.makeBuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.cleanBuildTarget</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableCleanBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.append_environment</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.stopOnError</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enabledIncrementalBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.command</key>
+					<value>/usr/bin/make</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.contents</key>
+					<value>org.eclipse.cdt.make.core.activeConfigSettings</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.inc</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.arguments</key>
+					<value>-j8</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildLocation</key>
+					<value>/home/frank/Scrivania/TestOpenCl</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.useDefaultBuildCmd</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.environment</key>
+					<value>VERBOSE=1|CMAKE_NO_VERBOSE=1|</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableFullBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.auto</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableAutoBuild</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.clean</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.fullBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildArguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.location</key>
+					<value>/home/frank/Scrivania/TestOpenCl</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.autoBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.core.errorOutputParser</key>
+					<value>org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.ScannerConfigBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.make.core.makeNature</nature>
+		<nature>org.eclipse.cdt.make.core.ScannerConfigNature</nature>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>[Source directory]</name>
+			<type>2</type>
+			<location>/home/frank/Scrivania/tracking-itsu</location>
+		</link>
+		<link>
+			<name>[Subprojects]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Subprojects]/TRACKING-ITSU</name>
+			<type>2</type>
+			<location>/home/frank/Scrivania/tracking-itsu</location>
+		</link>
+		<link>
+			<name>[Targets]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] tracking-itsu-main</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] tracking-itsu-main/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] tracking-itsu-main/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] tracking-itsu-main/Source Files/main.cpp</name>
+			<type>1</type>
+			<location>/home/frank/Scrivania/tracking-itsu/main.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] tracking-itsu-main/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] tracking-itsu-main/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] tracking-itsu-main/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] tracking-itsu-main/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] src</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] src/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] src/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] src/Source Files/Cell.cxx</name>
+			<type>1</type>
+			<location>/home/frank/Scrivania/tracking-itsu/src/CA/Cell.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] src/Source Files/Cluster.cxx</name>
+			<type>1</type>
+			<location>/home/frank/Scrivania/tracking-itsu/src/CA/Cluster.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] src/Source Files/Event.cxx</name>
+			<type>1</type>
+			<location>/home/frank/Scrivania/tracking-itsu/src/CA/Event.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] src/Source Files/IOUtils.cxx</name>
+			<type>1</type>
+			<location>/home/frank/Scrivania/tracking-itsu/src/CA/IOUtils.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] src/Source Files/Label.cxx</name>
+			<type>1</type>
+			<location>/home/frank/Scrivania/tracking-itsu/src/CA/Label.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] src/Source Files/Layer.cxx</name>
+			<type>1</type>
+			<location>/home/frank/Scrivania/tracking-itsu/src/CA/Layer.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] src/Source Files/PrimaryVertexContext.cxx</name>
+			<type>1</type>
+			<location>/home/frank/Scrivania/tracking-itsu/src/CA/PrimaryVertexContext.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] src/Source Files/Road.cxx</name>
+			<type>1</type>
+			<location>/home/frank/Scrivania/tracking-itsu/src/CA/Road.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] src/Source Files/Tracker.cxx</name>
+			<type>1</type>
+			<location>/home/frank/Scrivania/tracking-itsu/src/CA/Tracker.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] src/Source Files/TrackingUtils.cxx</name>
+			<type>1</type>
+			<location>/home/frank/Scrivania/tracking-itsu/src/CA/TrackingUtils.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] src/Source Files/Tracklet.cxx</name>
+			<type>1</type>
+			<location>/home/frank/Scrivania/tracking-itsu/src/CA/Tracklet.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] src/Source Files/Context.cpp</name>
+			<type>1</type>
+			<location>/home/frank/Scrivania/tracking-itsu/src/CA/opencl/Context.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] src/Source Files/PrimaryVertexContext.cpp</name>
+			<type>1</type>
+			<location>/home/frank/Scrivania/tracking-itsu/src/CA/opencl/PrimaryVertexContext.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] src/Source Files/Stream.cpp</name>
+			<type>1</type>
+			<location>/home/frank/Scrivania/tracking-itsu/src/CA/opencl/Stream.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] src/Source Files/Utils.cpp</name>
+			<type>1</type>
+			<location>/home/frank/Scrivania/tracking-itsu/src/CA/opencl/Utils.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] src/Source Files/Tracker.cpp</name>
+			<type>1</type>
+			<location>/home/frank/Scrivania/tracking-itsu/src/CA/opencl/Tracker.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] src/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] src/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] src/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] src/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>

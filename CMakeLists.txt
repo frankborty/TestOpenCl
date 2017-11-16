@@ -31,13 +31,13 @@ include_directories( ${OPENCL_INCLUDE_DIRS} ${TRACKING-ITSU_SOURCE_DIR}/include/
 endif(TRACKINGITSU_TARGET_DEVICE STREQUAL OPEN_CL)
 
 include_directories(${TRACKING-ITSU_SOURCE_DIR}/include)
-add_subdirectory(src)
+#add_subdirectory(src)
 
 add_executable(tracking-itsu-main main.cpp)
 
 if(TRACKINGITSU_TARGET_DEVICE STREQUAL OPEN_CL)
-target_link_libraries(tracking-itsu-main src ${OpenCL_LIBRARIES})
+#target_link_libraries(tracking-itsu-main src ${OpenCL_LIBRARIES})
 endif(TRACKINGITSU_TARGET_DEVICE STREQUAL OPEN_CL)
 
 
-target_link_libraries(tracking-itsu-main src)
+#target_link_libraries(tracking-itsu-main src)
